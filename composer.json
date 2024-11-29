@@ -1,0 +1,19 @@
+{
+    "name": "henrique/guard_gerenciador_contatos",
+    "authors": [
+        {
+            "name": "Henrique",
+            "email": "henriqueferreira0320@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        },
+        "files": [
+            "./Core/functions.php"
+        ]
+    }
+}
